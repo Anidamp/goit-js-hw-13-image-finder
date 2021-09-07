@@ -1,0 +1,35 @@
+{
+  "name": "goit-js-hw-13-image-finder",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "parcel src/index.html",
+    "build": "parcel build src/index.html --public-url /goit-js-hw-13-image-finder/",
+    "deploy": "gh-pages -d dist",
+    "predeploy": "npm run build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Anidamp/goit-js-hw-13-image-finder.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Anidamp/goit-js-hw-13-image-finder/issues"
+  },
+  "homepage": "https://Anidamp.github.io/goit-js-hw-13-image-finder",
+  "devDependencies": {
+    "babel-polyfill": "^6.26.0",
+    "gh-pages": "^3.2.3",
+    "parcel-bundler": "^1.12.5",
+    "parcel-plugin-handlebars-precompile": "^1.0.2",
+    "parcel-plugin-nuke-dist": "^1.0.1",
+    "sass": "^1.38.2"
+  },
+  "dependencies": {
+    "pnotify": "^5.2.0"
+  }
+}
